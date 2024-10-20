@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/6wordle/static/css/main.d23ab21f.css",
+    "main.js": "/6wordle/static/js/main.0d82c73a.js",
+    "index.html": "/6wordle/index.html",
+    "main.d23ab21f.css.map": "/6wordle/static/css/main.d23ab21f.css.map",
+    "main.0d82c73a.js.map": "/6wordle/static/js/main.0d82c73a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d23ab21f.css",
+    "static/js/main.0d82c73a.js"
+  ]
+}
