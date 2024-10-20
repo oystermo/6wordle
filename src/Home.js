@@ -10578,6 +10578,8 @@ const Home = () => {
 
     const calculate = (inp) => {
 
+        inp = inp.toLowerCase(); 
+
         if ((inp.length !== 6) || (!stringList.includes(inp))) {
             setMessage("Invalid input!");
             return;
@@ -10632,6 +10634,11 @@ const Home = () => {
 
         if (tempRes.toString() === '🟩,🟩,🟩,🟩,🟩,🟩') {
             setEnd(true);
+            setFirst(false);
+            setSecond(false);
+            setThird(false);
+            setFourth(false);
+            setFifth(false);
             setDisp6(tempRes);
             setGot("got");
         }
