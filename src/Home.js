@@ -10578,6 +10578,8 @@ const Home = () => {
 
     const calculate = (inp) => {
 
+        inp = inp.toLowerCase(); 
+
         if ((inp.length !== 6) || (!stringList.includes(inp))) {
             setMessage("Invalid input!");
             return;
